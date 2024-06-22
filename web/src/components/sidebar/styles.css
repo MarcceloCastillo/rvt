@@ -1,0 +1,39 @@
+aside.sidebar {
+  position: fixed;
+  height: 100%;
+  padding: 32px 24px;
+  background: linear-gradient(329.54deg, #21CE38 0%, #20FA8B 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside.sidebar img {
+  width: 260px;
+}
+
+aside.sidebar footer a,
+aside.sidebar footer button {
+  width: 48px;
+  height: 48px;
+
+  border: 0;
+
+  background: #17952a;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside.sidebar footer a:hover,
+aside.sidebar footer button:hover {
+  background: #77FB34;
+}
